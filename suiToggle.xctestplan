@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "7725280E-4D59-480F-93EB-3789880E2048",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:suiToggle.xcodeproj",
+      "identifier" : "E42525BB2994D78E006D56E1",
+      "name" : "suiToggle"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "skippedTests" : [
+        "suiToggleUITestsLaunchTests"
+      ],
+      "target" : {
+        "containerPath" : "container:suiToggle.xcodeproj",
+        "identifier" : "E42525D62994D792006D56E1",
+        "name" : "suiToggleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

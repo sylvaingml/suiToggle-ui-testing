@@ -7,23 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E42525C02994D78E006D56E1 /* suiToggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525BF2994D78E006D56E1 /* suiToggleApp.swift */; };
+		E42525C02994D78E006D56E1 /* SuiToggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525BF2994D78E006D56E1 /* SuiToggleApp.swift */; };
 		E42525C22994D78E006D56E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525C12994D78E006D56E1 /* ContentView.swift */; };
 		E42525C42994D791006D56E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42525C32994D791006D56E1 /* Assets.xcassets */; };
 		E42525C82994D791006D56E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42525C72994D791006D56E1 /* Preview Assets.xcassets */; };
-		E42525D22994D792006D56E1 /* suiToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525D12994D792006D56E1 /* suiToggleTests.swift */; };
 		E42525DC2994D792006D56E1 /* suiToggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525DB2994D792006D56E1 /* suiToggleUITests.swift */; };
 		E42525DE2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525DD2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift */; };
+		E42525F02994DA4A006D56E1 /* ContentViewTestProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525EF2994DA4A006D56E1 /* ContentViewTestProxy.swift */; };
+		E42525F22994DBC4006D56E1 /* A11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525EA2994D7ED006D56E1 /* A11y.swift */; };
+		E42525F32994DC36006D56E1 /* A11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525EA2994D7ED006D56E1 /* A11y.swift */; };
+		E477E3B529959DCF002C5331 /* XCTestCase+toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477E3B429959DCF002C5331 /* XCTestCase+toggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E42525CE2994D792006D56E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E42525B42994D78E006D56E1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E42525BB2994D78E006D56E1;
-			remoteInfo = suiToggle;
-		};
 		E42525D82994D792006D56E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E42525B42994D78E006D56E1 /* Project object */;
@@ -35,27 +31,23 @@
 
 /* Begin PBXFileReference section */
 		E42525BC2994D78E006D56E1 /* suiToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suiToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E42525BF2994D78E006D56E1 /* suiToggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suiToggleApp.swift; sourceTree = "<group>"; };
+		E42525BF2994D78E006D56E1 /* SuiToggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuiToggleApp.swift; sourceTree = "<group>"; };
 		E42525C12994D78E006D56E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E42525C32994D791006D56E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E42525C52994D791006D56E1 /* suiToggle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = suiToggle.entitlements; sourceTree = "<group>"; };
 		E42525C72994D791006D56E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E42525CD2994D792006D56E1 /* suiToggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suiToggleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E42525D12994D792006D56E1 /* suiToggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suiToggleTests.swift; sourceTree = "<group>"; };
 		E42525D72994D792006D56E1 /* suiToggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suiToggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42525DB2994D792006D56E1 /* suiToggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suiToggleUITests.swift; sourceTree = "<group>"; };
 		E42525DD2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suiToggleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E42525EA2994D7ED006D56E1 /* A11y.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11y.swift; sourceTree = "<group>"; };
+		E42525ED2994D86A006D56E1 /* suiToggle.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = suiToggle.xctestplan; sourceTree = "<group>"; };
+		E42525EF2994DA4A006D56E1 /* ContentViewTestProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTestProxy.swift; sourceTree = "<group>"; };
+		E42525F12994DB56006D56E1 /* suiToggle-launches.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "suiToggle-launches.xctestplan"; sourceTree = "<group>"; };
+		E477E3B429959DCF002C5331 /* XCTestCase+toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+toggle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E42525B92994D78E006D56E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E42525CA2994D792006D56E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +67,9 @@
 		E42525B32994D78E006D56E1 = {
 			isa = PBXGroup;
 			children = (
+				E42525ED2994D86A006D56E1 /* suiToggle.xctestplan */,
+				E42525F12994DB56006D56E1 /* suiToggle-launches.xctestplan */,
 				E42525BE2994D78E006D56E1 /* suiToggle */,
-				E42525D02994D792006D56E1 /* suiToggleTests */,
 				E42525DA2994D792006D56E1 /* suiToggleUITests */,
 				E42525BD2994D78E006D56E1 /* Products */,
 			);
@@ -86,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				E42525BC2994D78E006D56E1 /* suiToggle.app */,
-				E42525CD2994D792006D56E1 /* suiToggleTests.xctest */,
 				E42525D72994D792006D56E1 /* suiToggleUITests.xctest */,
 			);
 			name = Products;
@@ -95,7 +87,8 @@
 		E42525BE2994D78E006D56E1 /* suiToggle */ = {
 			isa = PBXGroup;
 			children = (
-				E42525BF2994D78E006D56E1 /* suiToggleApp.swift */,
+				E42525EA2994D7ED006D56E1 /* A11y.swift */,
+				E42525BF2994D78E006D56E1 /* SuiToggleApp.swift */,
 				E42525C12994D78E006D56E1 /* ContentView.swift */,
 				E42525C32994D791006D56E1 /* Assets.xcassets */,
 				E42525C52994D791006D56E1 /* suiToggle.entitlements */,
@@ -112,21 +105,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E42525D02994D792006D56E1 /* suiToggleTests */ = {
-			isa = PBXGroup;
-			children = (
-				E42525D12994D792006D56E1 /* suiToggleTests.swift */,
-			);
-			path = suiToggleTests;
-			sourceTree = "<group>";
-		};
 		E42525DA2994D792006D56E1 /* suiToggleUITests */ = {
 			isa = PBXGroup;
 			children = (
+				E477E3B329959C42002C5331 /* xctest */,
+				E42525EE2994DA34006D56E1 /* view-proxies */,
 				E42525DB2994D792006D56E1 /* suiToggleUITests.swift */,
 				E42525DD2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift */,
 			);
 			path = suiToggleUITests;
+			sourceTree = "<group>";
+		};
+		E42525EE2994DA34006D56E1 /* view-proxies */ = {
+			isa = PBXGroup;
+			children = (
+				E42525EF2994DA4A006D56E1 /* ContentViewTestProxy.swift */,
+			);
+			path = "view-proxies";
+			sourceTree = "<group>";
+		};
+		E477E3B329959C42002C5331 /* xctest */ = {
+			isa = PBXGroup;
+			children = (
+				E477E3B429959DCF002C5331 /* XCTestCase+toggle.swift */,
+			);
+			path = xctest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,24 +151,6 @@
 			productName = suiToggle;
 			productReference = E42525BC2994D78E006D56E1 /* suiToggle.app */;
 			productType = "com.apple.product-type.application";
-		};
-		E42525CC2994D792006D56E1 /* suiToggleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E42525E42994D792006D56E1 /* Build configuration list for PBXNativeTarget "suiToggleTests" */;
-			buildPhases = (
-				E42525C92994D792006D56E1 /* Sources */,
-				E42525CA2994D792006D56E1 /* Frameworks */,
-				E42525CB2994D792006D56E1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E42525CF2994D792006D56E1 /* PBXTargetDependency */,
-			);
-			name = suiToggleTests;
-			productName = suiToggleTests;
-			productReference = E42525CD2994D792006D56E1 /* suiToggleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E42525D62994D792006D56E1 /* suiToggleUITests */ = {
 			isa = PBXNativeTarget;
@@ -198,10 +183,6 @@
 					E42525BB2994D78E006D56E1 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					E42525CC2994D792006D56E1 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = E42525BB2994D78E006D56E1;
-					};
 					E42525D62994D792006D56E1 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = E42525BB2994D78E006D56E1;
@@ -222,7 +203,6 @@
 			projectRoot = "";
 			targets = (
 				E42525BB2994D78E006D56E1 /* suiToggle */,
-				E42525CC2994D792006D56E1 /* suiToggleTests */,
 				E42525D62994D792006D56E1 /* suiToggleUITests */,
 			);
 		};
@@ -235,13 +215,6 @@
 			files = (
 				E42525C82994D791006D56E1 /* Preview Assets.xcassets in Resources */,
 				E42525C42994D791006D56E1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E42525CB2994D792006D56E1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,16 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42525F22994DBC4006D56E1 /* A11y.swift in Sources */,
 				E42525C22994D78E006D56E1 /* ContentView.swift in Sources */,
-				E42525C02994D78E006D56E1 /* suiToggleApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E42525C92994D792006D56E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E42525D22994D792006D56E1 /* suiToggleTests.swift in Sources */,
+				E42525C02994D78E006D56E1 /* SuiToggleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42525F02994DA4A006D56E1 /* ContentViewTestProxy.swift in Sources */,
+				E42525F32994DC36006D56E1 /* A11y.swift in Sources */,
+				E477E3B529959DCF002C5331 /* XCTestCase+toggle.swift in Sources */,
 				E42525DE2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift in Sources */,
 				E42525DC2994D792006D56E1 /* suiToggleUITests.swift in Sources */,
 			);
@@ -284,11 +253,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E42525CF2994D792006D56E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E42525BB2994D78E006D56E1 /* suiToggle */;
-			targetProxy = E42525CE2994D792006D56E1 /* PBXContainerItemProxy */;
-		};
 		E42525D92994D792006D56E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E42525BB2994D78E006D56E1 /* suiToggle */;
@@ -482,52 +446,6 @@
 			};
 			name = Release;
 		};
-		E42525E52994D792006D56E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 26C837US6J;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.sylvaingamel.suiToggleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suiToggle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/suiToggle";
-			};
-			name = Debug;
-		};
-		E42525E62994D792006D56E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 26C837US6J;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.sylvaingamel.suiToggleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suiToggle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/suiToggle";
-			};
-			name = Release;
-		};
 		E42525E82994D792006D56E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -589,15 +507,6 @@
 			buildConfigurations = (
 				E42525E22994D792006D56E1 /* Debug */,
 				E42525E32994D792006D56E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E42525E42994D792006D56E1 /* Build configuration list for PBXNativeTarget "suiToggleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E42525E52994D792006D56E1 /* Debug */,
-				E42525E62994D792006D56E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
