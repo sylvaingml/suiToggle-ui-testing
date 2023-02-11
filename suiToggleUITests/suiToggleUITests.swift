@@ -12,6 +12,10 @@ final class suiToggleUITests: XCTestCase {
   var app: XCUIApplication?
   var contentViewProxy: ContentViewTestProxy?
   
+  
+  // MARK: Lifecycle
+  
+  
   override func setUpWithError() throws {
     continueAfterFailure = false
     
@@ -22,6 +26,10 @@ final class suiToggleUITests: XCTestCase {
   override func tearDownWithError() throws {
     app?.terminate()
   }
+  
+  
+  // MARK: Tests
+  
   
   func testPinInitialState() throws {
     contentViewProxy = ContentViewTestProxy(app: app!)

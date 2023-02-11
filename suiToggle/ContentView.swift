@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 /// Main view of the application.
 ///
 /// This is the view to be tested.

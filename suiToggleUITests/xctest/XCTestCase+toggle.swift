@@ -7,6 +7,9 @@
 
 import XCTest
 
+
+/// Extends Xcode testing framework for toggles
+///
 extension XCTestCase {
   
   // MARK: Predicates to apply on elements
@@ -71,7 +74,7 @@ extension XCTestCase {
   /// - Parameter toggle: Toggle/Switch to be checked
   ///
   public func checkToggleIsOn(_ toggle: XCUIElement) {
-    return verifyToggle(toggle, value: "1")
+    return verifyElement(toggle, value: "1")
   }
   
 
@@ -82,7 +85,7 @@ extension XCTestCase {
   /// - Parameter toggle: Toggle/Switch to be checked
   ///
   public func checkToggleIsOff(_ toggle: XCUIElement) {
-    return verifyToggle(toggle, value: "0")
+    return verifyElement(toggle, value: "0")
   }
   
   
@@ -127,19 +130,30 @@ extension XCTestCase {
     waitForSwitchToBeOff(toggle, timeOut: 5)
   }
   
-  // MARK: Internal utilities for Toggle/Switches
   
-  func verifyToggle(_ toggle: XCUIElement, value expected: String) {
-    guard let value = toggle.value as? String
+  // MARK: Internal utilities
+  
+  
+  /// Internal function to verify an element's `String` value.
+  ///
+  /// If the element's value is not a `String, calling this function will
+  /// make the test fail.
+  ///
+  /// - Parameters:
+  ///   - element: Element to check
+  ///   - expected: Expected string value for this element.
+  ///
+  func verifyElement(_ element: XCUIElement, value expected: String) {
+    guard let value = element.value as? String
     else {
-      let elementInfo = XCTAttachment(string: toggle.debugDescription)
+      let elementInfo = XCTAttachment(string: element.debugDescription)
       var issue = XCTIssue(type: .assertionFailure,
-                           compactDescription: "Value of element `\(toggle.identifier)` is not a String")
+                           compactDescription: "Value of element `\(element.identifier)` is not a String")
       issue.add(elementInfo)
       return
     }
     
-    XCTAssertEqual(expected, value, "Element of type \(toggle.elementType) has not expected value.")
+    XCTAssertEqual(expected, value, "Element of type \(element.elementType) has not expected value.")
   }
   
   
@@ -160,7 +174,6 @@ extension XCTestCase {
     let center = descendant.coordinate(withNormalizedOffset: CGVectorMake(0.5, 0.5))
     return center
   }
-  
   
 }
 

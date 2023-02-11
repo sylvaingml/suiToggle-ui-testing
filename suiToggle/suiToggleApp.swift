@@ -14,9 +14,11 @@ import SwiftUI
 ///
 @main
 struct SuiToggleApp: App {
+  
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
+  
 }

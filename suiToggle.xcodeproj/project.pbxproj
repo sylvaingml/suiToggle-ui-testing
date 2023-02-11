@@ -12,10 +12,9 @@
 		E42525C42994D791006D56E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42525C32994D791006D56E1 /* Assets.xcassets */; };
 		E42525C82994D791006D56E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42525C72994D791006D56E1 /* Preview Assets.xcassets */; };
 		E42525DC2994D792006D56E1 /* suiToggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525DB2994D792006D56E1 /* suiToggleUITests.swift */; };
-		E42525DE2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525DD2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift */; };
 		E42525F02994DA4A006D56E1 /* ContentViewTestProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525EF2994DA4A006D56E1 /* ContentViewTestProxy.swift */; };
-		E42525F22994DBC4006D56E1 /* A11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525EA2994D7ED006D56E1 /* A11y.swift */; };
-		E42525F32994DC36006D56E1 /* A11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525EA2994D7ED006D56E1 /* A11y.swift */; };
+		E42525F22994DBC4006D56E1 /* ContentViewA11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525EA2994D7ED006D56E1 /* ContentViewA11y.swift */; };
+		E42525F32994DC36006D56E1 /* ContentViewA11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42525EA2994D7ED006D56E1 /* ContentViewA11y.swift */; };
 		E477E3B529959DCF002C5331 /* XCTestCase+toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477E3B429959DCF002C5331 /* XCTestCase+toggle.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,11 +37,9 @@
 		E42525C72994D791006D56E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E42525D72994D792006D56E1 /* suiToggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suiToggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42525DB2994D792006D56E1 /* suiToggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suiToggleUITests.swift; sourceTree = "<group>"; };
-		E42525DD2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suiToggleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E42525EA2994D7ED006D56E1 /* A11y.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11y.swift; sourceTree = "<group>"; };
+		E42525EA2994D7ED006D56E1 /* ContentViewA11y.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewA11y.swift; sourceTree = "<group>"; };
 		E42525ED2994D86A006D56E1 /* suiToggle.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = suiToggle.xctestplan; sourceTree = "<group>"; };
 		E42525EF2994DA4A006D56E1 /* ContentViewTestProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTestProxy.swift; sourceTree = "<group>"; };
-		E42525F12994DB56006D56E1 /* suiToggle-launches.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "suiToggle-launches.xctestplan"; sourceTree = "<group>"; };
 		E477E3B429959DCF002C5331 /* XCTestCase+toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+toggle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				E42525ED2994D86A006D56E1 /* suiToggle.xctestplan */,
-				E42525F12994DB56006D56E1 /* suiToggle-launches.xctestplan */,
 				E42525BE2994D78E006D56E1 /* suiToggle */,
 				E42525DA2994D792006D56E1 /* suiToggleUITests */,
 				E42525BD2994D78E006D56E1 /* Products */,
@@ -87,9 +83,9 @@
 		E42525BE2994D78E006D56E1 /* suiToggle */ = {
 			isa = PBXGroup;
 			children = (
-				E42525EA2994D7ED006D56E1 /* A11y.swift */,
 				E42525BF2994D78E006D56E1 /* SuiToggleApp.swift */,
 				E42525C12994D78E006D56E1 /* ContentView.swift */,
+				E42525EA2994D7ED006D56E1 /* ContentViewA11y.swift */,
 				E42525C32994D791006D56E1 /* Assets.xcassets */,
 				E42525C52994D791006D56E1 /* suiToggle.entitlements */,
 				E42525C62994D791006D56E1 /* Preview Content */,
@@ -108,10 +104,9 @@
 		E42525DA2994D792006D56E1 /* suiToggleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E477E3B329959C42002C5331 /* xctest */,
-				E42525EE2994DA34006D56E1 /* view-proxies */,
 				E42525DB2994D792006D56E1 /* suiToggleUITests.swift */,
-				E42525DD2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift */,
+				E42525EE2994DA34006D56E1 /* view-proxies */,
+				E477E3B329959C42002C5331 /* xctest */,
 			);
 			path = suiToggleUITests;
 			sourceTree = "<group>";
@@ -232,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42525F22994DBC4006D56E1 /* A11y.swift in Sources */,
+				E42525F22994DBC4006D56E1 /* ContentViewA11y.swift in Sources */,
 				E42525C22994D78E006D56E1 /* ContentView.swift in Sources */,
 				E42525C02994D78E006D56E1 /* SuiToggleApp.swift in Sources */,
 			);
@@ -243,9 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42525F02994DA4A006D56E1 /* ContentViewTestProxy.swift in Sources */,
-				E42525F32994DC36006D56E1 /* A11y.swift in Sources */,
+				E42525F32994DC36006D56E1 /* ContentViewA11y.swift in Sources */,
 				E477E3B529959DCF002C5331 /* XCTestCase+toggle.swift in Sources */,
-				E42525DE2994D792006D56E1 /* suiToggleUITestsLaunchTests.swift in Sources */,
 				E42525DC2994D792006D56E1 /* suiToggleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
