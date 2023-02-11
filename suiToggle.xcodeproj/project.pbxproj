@@ -41,6 +41,11 @@
 		E42525ED2994D86A006D56E1 /* suiToggle.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = suiToggle.xctestplan; sourceTree = "<group>"; };
 		E42525EF2994DA4A006D56E1 /* ContentViewTestProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTestProxy.swift; sourceTree = "<group>"; };
 		E477E3B429959DCF002C5331 /* XCTestCase+toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+toggle.swift"; sourceTree = "<group>"; };
+		E477E3CD29979838002C5331 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E477E3D02997989E002C5331 /* togglesTap@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "togglesTap@3x.png"; sourceTree = "<group>"; };
+		E477E3D12997989E002C5331 /* SuiToggleApp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SuiToggleApp@3x.png"; sourceTree = "<group>"; };
+		E477E3D22997A69F002C5331 /* a11y-identifiers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "a11y-identifiers.md"; sourceTree = "<group>"; };
+		E477E3D32997A961002C5331 /* test-app.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "test-app.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				E42525ED2994D86A006D56E1 /* suiToggle.xctestplan */,
+				E477E3CD29979838002C5331 /* README.md */,
+				E477E3CE2997983D002C5331 /* doc */,
 				E42525BE2994D78E006D56E1 /* suiToggle */,
 				E42525DA2994D792006D56E1 /* suiToggleUITests */,
 				E42525BD2994D78E006D56E1 /* Products */,
@@ -125,6 +132,25 @@
 				E477E3B429959DCF002C5331 /* XCTestCase+toggle.swift */,
 			);
 			path = xctest;
+			sourceTree = "<group>";
+		};
+		E477E3CE2997983D002C5331 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				E477E3CF29979847002C5331 /* img */,
+				E477E3D22997A69F002C5331 /* a11y-identifiers.md */,
+				E477E3D32997A961002C5331 /* test-app.md */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		E477E3CF29979847002C5331 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				E477E3D12997989E002C5331 /* SuiToggleApp@3x.png */,
+				E477E3D02997989E002C5331 /* togglesTap@3x.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
