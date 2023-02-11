@@ -8,12 +8,12 @@
 import Foundation
 
 
-public enum AppA11y: String {
-  case content = "app/content"
-}
-
-
+/// Identifiers of UI elements in ``ContentView``.
+///
 public enum ContentViewA11y: String {
+  /// First toggle controlling the _pinned_ option.
   case pinToggle = "content/pin"
+  
+  /// Second toggle controling the _shared_ option.
   case sharedToggle = "content/shared"
 }
