@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+
+/// The application entry point.
+///
+/// Only include the ``ContentView`` view.
+///
 @main
 struct SuiToggleApp: App {
     var body: some Scene {
