@@ -45,7 +45,6 @@
 		E477E3D02997989E002C5331 /* togglesTap@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "togglesTap@3x.png"; sourceTree = "<group>"; };
 		E477E3D12997989E002C5331 /* SuiToggleApp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SuiToggleApp@3x.png"; sourceTree = "<group>"; };
 		E477E3D22997A69F002C5331 /* a11y-identifiers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "a11y-identifiers.md"; sourceTree = "<group>"; };
-		E477E3D32997A961002C5331 /* test-app.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "test-app.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +138,6 @@
 			children = (
 				E477E3CF29979847002C5331 /* img */,
 				E477E3D22997A69F002C5331 /* a11y-identifiers.md */,
-				E477E3D32997A961002C5331 /* test-app.md */,
 			);
 			path = doc;
 			sourceTree = "<group>";

@@ -15,12 +15,6 @@ extension XCTestCase {
   // MARK: Predicates to apply on elements
   
   
-  /// Check if an element is in selected state
-  static let selectedPredicate = NSPredicate(format: "self.selected == true")
-  
-  /// Check if an element is in unselected state
-  static let notSelectedPredicate = NSPredicate(format: "self.selected == false")
-  
   /// Check if an element's value is "1"
   static let switchIsOnPredicate = NSPredicate(format: "value == '1'")
   
