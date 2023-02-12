@@ -43,8 +43,8 @@
 		E477E3B429959DCF002C5331 /* XCTestCase+toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+toggle.swift"; sourceTree = "<group>"; };
 		E477E3CD29979838002C5331 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E477E3D02997989E002C5331 /* togglesTap@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "togglesTap@3x.png"; sourceTree = "<group>"; };
-		E477E3D12997989E002C5331 /* SuiToggleApp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SuiToggleApp@3x.png"; sourceTree = "<group>"; };
 		E477E3D22997A69F002C5331 /* a11y-identifiers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "a11y-identifiers.md"; sourceTree = "<group>"; };
+		E477E3D429994F19002C5331 /* togglesTap-fixed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "togglesTap-fixed@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +145,7 @@
 		E477E3CF29979847002C5331 /* img */ = {
 			isa = PBXGroup;
 			children = (
-				E477E3D12997989E002C5331 /* SuiToggleApp@3x.png */,
+				E477E3D429994F19002C5331 /* togglesTap-fixed@3x.png */,
 				E477E3D02997989E002C5331 /* togglesTap@3x.png */,
 			);
 			path = img;
