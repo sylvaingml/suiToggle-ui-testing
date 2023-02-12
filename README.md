@@ -57,7 +57,7 @@ Each function will proceed as follow:
 
 - Code for the extension is in the UI target of the project.
 - Project is a sample application
-- Check the included UI tests of this app, especially [accessibility identifiers](doc/a11-identifiers.md)
+- Check the included UI tests of this app, especially [accessibility identifiers](doc/a11y-identifiers.md)
 
 
 ## What's Next
