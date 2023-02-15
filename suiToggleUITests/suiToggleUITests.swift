@@ -10,7 +10,6 @@ import XCTest
 final class suiToggleUITests: XCTestCase {
   
   var app: XCUIApplication?
-  var contentViewProxy: ContentViewTestProxy?
   
   
   // MARK: Lifecycle
@@ -32,29 +31,29 @@ final class suiToggleUITests: XCTestCase {
   
   
   func testPinInitialState() throws {
-    contentViewProxy = ContentViewTestProxy(app: app!)
+    let contentViewProxy = ContentViewTestProxy(app: app!)
     
-    checkToggleIsOff(contentViewProxy!.pinToggle)
+    checkToggleIsOff(contentViewProxy.pinToggle)
   }
   
   func testSharedInitialState() throws {
-    contentViewProxy = ContentViewTestProxy(app: app!)
+    let contentViewProxy = ContentViewTestProxy(app: app!)
     
-    checkToggleIsOn(contentViewProxy!.sharedToggle)
+    checkToggleIsOn(contentViewProxy.sharedToggle)
   }
 
   func testTogglePinToOn() throws {
-    contentViewProxy = ContentViewTestProxy(app: app!)
+    let contentViewProxy = ContentViewTestProxy(app: app!)
     
-    waitForSwitchToBeOff(contentViewProxy!.pinToggle, timeOut: 5)
-    turnSwitchOn(contentViewProxy!.pinToggle)
+    waitForSwitchToBeOff(contentViewProxy.pinToggle, timeOut: 5)
+    turnSwitchOn(contentViewProxy.pinToggle)
   }
   
   func testToggleSharedToOff() throws {
-    contentViewProxy = ContentViewTestProxy(app: app!)
+    let contentViewProxy = ContentViewTestProxy(app: app!)
     
-    waitForSwitchToBeOn(contentViewProxy!.sharedToggle, timeOut: 5)
-    turnSwitchOff(contentViewProxy!.sharedToggle)
+    waitForSwitchToBeOn(contentViewProxy.sharedToggle, timeOut: 5)
+    turnSwitchOff(contentViewProxy.sharedToggle)
   }
 
 }
